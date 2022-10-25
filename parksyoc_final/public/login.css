@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+
+.container-fluid{
+  /* border: 2px solid red; */
+  height: 100vh;
+}
+
+.container-fluid .col-6{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.container-fluid .col-6 .left-side{
+  padding-right: 20rem;
+}
+
+.container-fluid .col-6 .right-side{
+  padding-left: 10rem;
+}
+
+
+
+
+
+/* display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;  */

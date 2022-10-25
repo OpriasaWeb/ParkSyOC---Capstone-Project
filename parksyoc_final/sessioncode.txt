@@ -1,0 +1,17 @@
+<?php if(isset($_SESSION['message'])): ?>
+      <h5 class="alert alert-success"><?= $_SESSION['message']; ?></h5>
+<?php 
+      unset($_SESSION['message']);
+      endif; 
+?>
+
+
+if($statement){
+    $_SESSION['message'] = "Added successfully!";
+    header('Location:./manageIn.php');
+    exit(0);
+} else{
+    $_SESSION['message'] = "Failed to add. Please try again.";
+    header('Location:./manageIn.php');
+    exit(0);
+}

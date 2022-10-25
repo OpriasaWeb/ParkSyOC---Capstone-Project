@@ -1,0 +1,4 @@
+SELECT add_vehicle.mmbrshp_id AS membership_id, membership.image AS parkingId
+FROM add_vehicle
+RIGHT JOIN membership
+ON add_vehicle.mmbrshp_id = membership.mmbrshp_id;

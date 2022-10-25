@@ -1,0 +1,169 @@
+body{
+  padding: 10px; 
+  margin: 20px;
+}
+
+
+
+/* --------------- Navigation bar --------------- */
+
+.navbar .container-fluid .a{
+  font-size: 2rem;
+  /* color: rgb(35, 160, 35); */
+}
+
+.navbar .container-fluid a{
+  font-weight: 600;
+}
+/* --------------- Navigation bar --------------- */
+
+/* --------------- Navigation profile --------------- */
+.profile{
+  /* border: 2px solid #23d323; */
+  
+  list-style: none;
+}
+
+.profile i{
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.dropdown-toggle{
+  color: black;
+}
+/* --------------- Navigation profile --------------- */
+
+/* --------------- Add category section --------------- */
+/* .container{
+  border: 2px solid black;
+} */
+
+/* .container .modal{
+  background-color: red;
+  width: 75%;
+  height: 90vh;
+} */
+
+.add-section{
+  /* border: 2px solid red; */
+  width: 75%;
+  height: 40vh;
+  margin: auto;
+  padding-top: 8%;
+}
+
+.add-section .input-group{
+  margin: 5px;
+}
+
+.add-section .input-group h2{
+  padding: 0 5rem 0 2rem;
+}
+
+.button-sbmt{
+  /* border: 2px solid green; */
+  padding: 5px;
+  margin: auto;
+  display: flex;
+}
+
+/* --------------- Add category section --------------- */
+
+/* --------------- Manage category section --------------- */
+.container .table{
+  margin-top: 2rem;
+}
+
+.table{
+  width: 75%;
+  margin: 20px auto;
+}
+
+/* --------------- Manage category section --------------- */
+
+
+/* --------------- Add vehicle section --------------- */
+.add-vehicle{
+  /* border: 2px solid red; */
+  width: 75%;
+  height: 40vh;
+  margin: auto;
+  padding-top: 2.5%;
+}
+
+.add-vehicle .input-group{
+  /* border: 2px solid red; */
+  margin: 1px 5px;
+  padding: 7px;
+}
+
+.input-group{
+  margin-bottom: 10px;
+}
+
+label{
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+  padding-right: 10px;
+  font-size: 1.2rem;
+}
+
+.add-vehicle .input-group input{
+  width: 10px;
+}
+
+/* --------------- Add vehicle section --------------- */
+
+
+/* --------------- View incoming vehicle section --------------- */
+.input-sections .input-group{
+  /* border: 2px solid blue; */
+  width: 75%;
+  margin: 5px auto;
+}
+
+td .bold{
+  font-size: 1.3rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* --------------- View incoming vehicle section --------------- */
+
+/* --------------- Search vehicle section --------------- */
+.container .row .input-group{
+  /* border: 2px solid blue; */
+  width: 50%;
+  margin: 2.5rem auto;
+}
+/* --------------- Search vehicle section --------------- */
+
+
+/* --------------- Go back section --------------- */
+.goback{
+  margin-top: 10px;
+}
+/* --------------- Go back section --------------- */
+
+
+/* --------------- Pop up modal section --------------- */
+
+/* --------------- Pop up modal section --------------- */
+
+
+
+
+/* --------------- Footer section --------------- */
+.container footer{
+  display: flex;
+  position: absolute; 
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+}
+
+/* --------------- Footer section --------------- */
+

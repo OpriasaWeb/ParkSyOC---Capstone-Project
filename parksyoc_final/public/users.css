@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+}
+
+
+img{
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#about-text{
+  text-align: justify;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .about-text{
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about-text{
+    font-size: 1.1rem;
+  }
+}
+

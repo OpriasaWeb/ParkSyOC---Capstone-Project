@@ -1,0 +1,33 @@
+/* Radio buttons - add vehicle */
+.radio-button{
+  height: 75px;
+  width: 750px;
+  box-shadow: 
+    -10px -10px 15px rgba(255, 255, 255, 0.55),
+    10px 10px 15px rgba(70, 70, 70, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 50px;
+  margin: 1rem;
+}
+
+.radio-button input[type="radio"]{
+  display: none;
+}
+
+.radio-button label{
+  font-size: 1.2rem;
+  padding: 15px 25px;
+  font-weight: 500;
+  color: #303030;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.radio-button input[type="radio"]:checked + label{
+  box-shadow: 
+  inset -10px -10px 15px rgba(255, 255, 255, 0.55),
+  inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+}
+/* Radio buttons - add vehicle */

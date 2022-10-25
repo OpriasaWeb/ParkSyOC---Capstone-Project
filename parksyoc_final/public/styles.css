@@ -1,0 +1,354 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+:root{
+  --body-bg: rgb(204, 204, 204);
+  --white: #ffff;
+  --darkWhite: #ccc;
+  --black: #0000;
+  --dark: #615c60;
+  --themeColor: #22b8d1;
+  --pageShadow: 0 0 0 .5cm rgba(0, 0, 0, 0.5);
+}
+
+
+body{
+  padding: 10px; 
+  margin: 15px;
+  background-color: rgb(245, 244, 244);
+}
+
+
+/* --------------- Navigation bar --------------- */
+
+.navbar .container-fluid .a{
+  font-size: 2rem;
+  /* color: rgb(35, 160, 35); */
+}
+
+.navbar .container-fluid a{
+  font-weight: 600;
+}
+/* --------------- Navigation bar --------------- */
+
+/* --------------- Navigation profile --------------- */
+.profile{
+  /* border: 2px solid #23d323; */
+  
+  list-style: none;
+}
+
+.profile i{
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.dropdown-toggle{
+  color: black;
+}
+
+
+/* --------------- Navigation profile --------------- */
+
+/* --------------- Dashboard section --------------- */
+.count-parking .col-4{
+  border: 3px solid rgb(238, 217, 217);
+  border-radius: 4.5px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.count-parking h5{
+  opacity: 70%;
+  font-size: 1.1rem;
+}
+
+.count-parking .col-3 .green{
+  color: green;
+}
+
+.count-parking .col-3 .red{
+  color: rgb(248, 27, 27);
+}
+
+.count-parking .col-3 .blue{
+  color: rgb(99, 99, 212);
+}
+
+.past-parking .col-6{
+  padding: 2rem;
+  text-align: center;
+}
+
+.past-parking h5{
+  opacity: 70%;
+  font-size: 1.1rem;
+}
+
+.customer-types .col-3{
+  border: 3px solid rgb(238, 217, 217);
+  border-radius: 4.5px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.customer-types h5{
+  opacity: 70%;
+  font-size: 1.1rem;
+}
+
+.customer-types .col-3 .green{
+  color: rgb(26, 144, 26);
+}
+
+.customer-types .col-3 .pink{
+  color: rgb(165, 83, 97);
+}
+
+.customer-types .col-3 .violet{
+  color: rgb(117, 15, 117);
+}
+
+.customer-types .col-3 .blue{
+  color: rgb(88, 88, 167);
+}
+
+/* --------- Membership expiration countdown section ---------- */
+.countdown-container{
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* --------- Membership expiration countdown section ---------- */
+
+
+/* --------------- Dashboard section --------------- */
+
+
+/* --------------- Add category section --------------- */
+/* .container{
+  border: 2px solid black;
+} */
+
+/* .container .modal{
+  background-color: red;
+  width: 75%;
+  height: 90vh;
+} */
+
+.add-section{
+  /* border: 2px solid red; */
+  width: 75%;
+  height: 40vh;
+  margin: auto;
+  padding-top: 8%;
+}
+
+.add-section .input-group{
+  margin: 5px;
+}
+
+.add-section .input-group h2{
+  padding: 0 5rem 0 2rem;
+}
+
+.button-sbmt{
+  /* border: 2px solid green; */
+  padding: 5px;
+  margin: auto;
+  display: flex;
+}
+
+/* --------------- Add category section --------------- */
+
+/* --------------- Manage category section --------------- */
+.container .table{
+  margin-top: 2rem;
+}
+
+.table{
+  width: 75%;
+  margin: 20px auto;
+}
+
+/* --------------- Manage category section --------------- */
+
+
+/* --------------- Add vehicle section --------------- */
+.add-vehicle{
+  /* border: 2px solid red; */
+  width: 75%;
+  height: 40vh;
+  margin: auto;
+  padding-top: 2.5%;
+}
+
+.add-vehicle .input-group{
+  /* border: 2px solid red; */
+  margin: 1px 5px;
+  padding: 7px;
+}
+
+.input-group{
+  margin-bottom: 10px;
+}
+
+.add-vehicle .fee-btn, .input-group label{
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+  padding-right: 10px;
+  font-size: 1.2rem;
+}
+
+.add-vehicle .input-group input{
+  width: 10px;
+}
+
+
+
+/* Fee */
+#customerFee{
+  display: none;
+}
+
+#paymentReminder{
+  display: none;
+}
+
+/* Fee */
+
+
+
+/* --------------- Add vehicle section --------------- */
+
+
+/* --------------- View incoming vehicle section --------------- */
+.input-sections .input-group{
+  /* border: 2px solid blue; */
+  width: 75%;
+  margin: 5px auto;
+}
+
+td .bold{
+  font-size: 1.3rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* --------------- View incoming vehicle section --------------- */
+
+/* --------------- Search vehicle section --------------- */
+.container .row .input-group{
+  /* border: 2px solid blue; */
+  width: 50%;
+  margin: 2.5rem auto;
+}
+/* --------------- Search vehicle section --------------- */
+
+
+/* --------------- Go back section --------------- */
+.goback{
+  margin-top: 10px;
+}
+/* --------------- Go back section --------------- */
+
+
+/* --------------- Pop up modal section --------------- */
+
+/* --------------- Pop up modal section --------------- */
+
+
+
+
+/* --------------- Print section --------------- */
+
+#page{
+  background: var(--darkWhite);
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  /* box-shadow: var(--pageShadow); */
+  border-radius: 2px;
+}
+
+#page[size="A4"]{
+  width: 9cm;
+  height: 25cm;
+  overflow: hidden;
+}
+.page{
+  background: var(--darkWhite);
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  /* box-shadow: var(--pageShadow); */
+  border-radius: 2px;
+}
+
+.page[size="A4"]{
+  width: 9cm;
+  height: 24cm;
+  overflow: hidden;
+}
+
+#address{
+  font-size: 10px;
+  margin: 2px;
+}
+
+#thanks{
+  font-size: 10px;
+  margin: 2px;
+}
+
+#greetings{
+  font-size: 10px;
+  margin: 2px;
+}
+
+#texts{
+  font-size: 10px;
+  margin: 2px;
+}
+
+/* --------------- Print section --------------- */
+
+/* --------------- Booking receipt section --------------- */
+
+
+
+/* --------------- Booking receipt section --------------- */
+
+.thumb-image{
+  width: 50px;
+}
+
+.updateImage{
+  width: 20rem;
+  height: 15rem;
+  border: 3px solid #7ec739;
+  border-radius: 7px;
+}
+
+#identification{
+  width: 23rem;
+  height: 15rem;
+  border: 3px solid #7ec739;
+  border-radius: 7px;
+}
+
+#longImage{
+  width: 20rem;
+  height: 25rem;
+  border: 3px solid #7ec739;
+  border-radius: 7px;
+}
+
+/* Index php */
+
+#icon-red{
+  text-align: justify;
+}

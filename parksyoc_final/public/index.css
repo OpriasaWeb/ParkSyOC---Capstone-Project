@@ -1,0 +1,105 @@
+
+body{
+  padding: 10px; 
+  margin: 15px;
+  background-color: rgb(245, 244, 244);
+}
+
+
+/* Index php */
+/* #carousel{
+  border: 2px solid red;
+} */
+
+#image{
+  width: 80px; 
+  height: 40rem;
+}
+
+
+@media only screen and (min-width: 320px) {
+  #image{
+    width: 80px; 
+    height: 10rem;
+  }
+
+  #rules{
+    font-size: 2px;
+  }
+}
+@media only screen and (min-width: 375px) {
+  #image{
+    width: 80px; 
+    height: 10rem;
+  }
+}
+@media only screen and (min-width: 425px) {
+  #image{
+    width: 80px; 
+    height: 10rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #image{
+    width: 80px; 
+    height: 25rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #image{
+    width: 80px; 
+    height: 35rem;
+  }
+}
+
+
+
+/* Parking guide */
+#pguide{
+  padding: 10px;
+}
+
+#pguide h5{
+  font-size: 2rem;
+}
+
+#pguide p{
+  font-size: 2rem;
+}
+
+
+
+@media only screen and (min-width: 320px) {
+  #pguide{
+    margin: 0;
+  }
+
+  #pguide h5{
+    font-size: 8px;
+  }
+
+  #pguide p{
+    font-size: 5px;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  #pguide h5{
+    font-size: 8px;
+  }
+
+  #pguide p{
+    font-size: 5px;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  #pguide h5{
+    font-size: 8px;
+  }
+
+  #pguide p{
+    font-size: 5px;
+  }
+}
